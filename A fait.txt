@@ -1,0 +1,28 @@
+Partie sur un génération par rapport à la couleur par pixel d'une image
+Algorythme de recherche de couleur dans une images pour l'intégrer à un terrain
+Problème de hauteur
+
+Génération d'une image en nuance de gris à partir d'une image
+Les hauteurs semble bonne et évité la déformation du terrain sur certains points
+
+Rajout de la texture en créant un material. Création d'une normal map en code. Rajout en code du material obtenu dans le terrain
+
+Rajout des arbres par rapport à la couleur d'un pixel de l'image(Instantiation par le code)
+Problème de placement des arbres
+Remplacement du spawn en utilisant l'image en nuance de gris
+
+Rajout de l'herbe et autre détails (Instantiation par le code)
+Problème de performance et résultat non satisfaisant
+Passage du spawn de l'herbe par le système du terrain (gros gain de performance et meilleur qualité)
+
+Problème si le terrain n'est pas carré (l'herbe ne se trouve pas au bon endroit, semble avoir la forme de l'image mais écrasé)
+Rajout de ratio dans le spawn des l'herbe pour que le terrain sache où faire spawn l'herbe comme il faut
+
+Passage à la génération de map depuis l'éditeur et non plus en play
+
+Rajout de la possibilité de sauvegarder les datas du terrain
+Problème pour Load la data du terrain (terrain disparait car les datas ne correpondent plus avec le terrain existant)
+
+Rajout de pouvoir choisir la densité de l'herbe au spawn de celle ci
+Rajout de pouvoir choisir le taux de random du spawn des arbres
+Rajout de pouvoir utiliser une image pour la génération du terrain et une autre pour la texture du terrain
